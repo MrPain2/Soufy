@@ -1,0 +1,416 @@
+body {
+    background-color: #381782;
+}
+           /* navbar */
+#my-navbar {
+  font-family: "acme";
+}
+
+#my-navbar .container-fluid {
+  background-color: #381782;
+}
+.nav-baro {
+  padding: 0;
+}
+.nav-btn-color {
+  background-color: #EFEDF2;
+  color: #950EB0;
+}
+
+.Orchestral {
+  font-size: 3rem;
+  position: relative;
+  top: -5px;
+  left: 1rem;
+  padding: 0;
+  height: 100px;
+  color: #fff;
+  text-shadow: 4px 4px 8px #000;
+}
+.Orchestral:hover {
+  color: #950EB0;
+  font-weight: bold;
+}
+.Music {
+  font-size: 2rem;
+  position: relative;
+  left: 49%;
+  bottom: 30px;
+  margin: 0;
+}
+.icon-navv {
+  font-size: 3rem;
+  position: relative;
+  top: 10px;
+  color: #B8100D;
+}
+.icon-navv2 {
+  font-size: 2rem;
+  position: relative;
+  top: 8px;
+  right: 8px;
+  color: #fff;
+}
+
+.by-soufy {
+  font-size: 3rem;
+  position: absolute;
+  left: 45%;
+  color: #950EB0;
+  cursor: pointer;
+  text-shadow: 4px 4px 6px #000;
+}
+.by-soufy:hover {
+  color: #fff;
+  font-weight: bold;
+}
+
+.button-up-search {
+  margin-bottom: 2.5rem;
+}
+.button-up {
+  font-size: 1.2rem;
+}
+
+.button-up-big {
+  margin-bottom: 2.5rem;
+  font-size: 1.4rem;
+}
+.push-3links {
+  margin-right: 3rem;
+}
+.links-color a {
+  color: #fff;
+  text-shadow: 4px 4px 8px #000;
+}
+.links-color a:hover {
+  color: #950EB0;
+}
+
+          /* home page  */
+#home .container-fluid {
+  background-color: #381782;
+  padding: 13% 0;
+  text-align: center;
+
+}
+#home video {
+  width: 16rem;
+  height: 9rem;
+  border-radius: 3%;
+  margin: 2% 5%;
+  cursor: pointer;
+  box-shadow: 4px 4px 8px #000;
+}
+#home video:hover {
+  border: 2px solid #000;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+}
+video:focus {
+  outline: none;
+}
+#home .carousel-item {
+  padding: 0 7%;
+}
+#home .arrows {
+  width: 4rem;
+}
+
+/* photos section */
+#photos {
+  font-family: "acme";
+  background-color: #AD50EB;
+}
+
+#photos .container-fluid {
+padding: 1% 1% 0;
+}
+.search-btn-photo {
+  width: 14rem;
+  margin-bottom: 3.5rem;
+}
+
+#photos button:hover {
+  color: #FA6DD5;
+}
+
+#photos h1 {
+  color: #fff;
+  font-size: 3rem;
+  display: inline-block;
+  line-height: 0.8;
+  font-weight: bold;
+  position: relative;
+  left: -10%;
+  text-shadow: 4px 4px 8px #000;
+  cursor: pointer;
+}
+#photos:hover h1 {
+  color: #42FA80;
+}
+.beautiful {
+  color: #fff;
+}
+.of {
+  font-size: 1.8rem;
+  position: relative;
+  left: 15px;
+  bottom: 3px;
+  font-weight: normal;
+}
+.icon-leaf {
+  font-size: 3rem;
+  position: relative;
+  left: 8px;
+  top: 5px;
+  transform: rotate(10deg);
+}
+
+.images {
+  font-size: 2rem;
+  position: relative;
+  left: 55px;
+  bottom: 7px;
+  font-weight: normal;
+  color: #fff;
+}
+.nature {
+  position: relative;
+  left: 63px;
+}
+
+#photos a {
+font-size: 1.2rem;
+position: relative;
+bottom: 2.5rem;
+right: 20px;
+color: #fff;
+text-shadow: 2px 2px 4px #000;
+}
+#photos a:hover {
+  color: #FA6DD5;
+}
+
+/* ////// imgs section */
+#imgs .container-fluid {
+  background-color: #AD50EB;
+  padding: 5% 0 10%;
+}
+#imgs img {
+  width: 100%;
+  height: 80%;
+  margin: 5% 5%;
+  object-fit: cover;
+  border-radius: 10%;
+  border: 5px outset #000;
+  border-right-width: 2px;
+  border-top-width: 3px;
+  border-bottom-width: 3px;
+}
+#imgs img:hover {
+  height: 82%;
+  border-color: #1B8F5D;
+  cursor: pointer;
+}
+
+#imgs .carousel-item {
+  padding: 0 7%;
+}
+#imgs .arrows {
+  width: 4rem;
+}
+
+/* footer section */
+#footer .container-fluid {
+  padding: 7% 7% 3%;
+  text-align: center;
+  background-color: #F083F2;
+}
+#footer h1 {
+  font-family: "acme";
+  font-size: 3rem;
+  font-weight: bold;
+  color: #F7C8E2;
+}
+
+#footer a {
+  font-size: 4rem;
+  padding: 0 7px;
+  color: #4D1759;
+}
+#footer .nav-link {
+  display: inline-block;
+}
+#footer a:hover {
+  color: #F7C8E2;
+}
+
+#footer p {
+  padding-top: 3%;
+  font-size: 0.9rem;
+  color: #461E4D;
+}
+
+/* sing-in log in pages section */
+
+
+#sign-in .container-fluid {
+  padding: 12% 10%;
+  background-color: #381782;
+}
+
+.width-form {
+  width: 12rem;
+  display: inline-block;
+  margin-right: 0.7rem;
+}
+.sign-form {
+  margin-top: 0.7rem;
+  width: 28.8rem;
+}
+.gender-form {
+  margin-top: 0.7rem;
+  width: 13.5rem;
+  display: inline-block;
+}
+.user-form {
+  margin-right: 0.7rem;
+  width: 14.3rem;
+  display: inline-block;
+}
+.check-form {
+  margin-top: 0.7rem;
+  width: 10rem;
+  color: #fff;
+}
+#sign-in button {
+margin-top: 0.7rem;
+}
+#sign-in img {
+  width: 27%;
+  border-bottom-left-radius: 35%;
+  border-bottom-right-radius: 30%;
+  object-fit: cover;
+  position: absolute;
+  right: 15%;
+  top: 15%;
+  transform: scaleX(-1);
+}
+#sign-in .log-img {
+  height: 69%;
+  border-bottom-left-radius: 45%;
+  border-bottom-right-radius: 45%;
+}
+
+/* support */
+.support-title {
+  text-align: center;
+  font-family: "acme";
+  position: absolute;
+  top: 40%;
+  right: 25%;
+  color: #fff;
+  font-size: 10rem;
+  }
+.support-title-1 {
+  font-size: 10rem;
+  display: inline-block;
+  color: #fff;
+  position: absolute;
+  right: 35%;
+}
+        /* media for navbar only */
+@media (max-width: 550px) {
+  .button-up-search {
+    width: 6.5rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .by-soufy {
+    position: relative;
+    left: 0;
+  }
+}
+@media (max-width: 752px) {
+  .by-soufy {
+    position: relative;
+    left: 1rem;
+    bottom: 1rem;
+  }
+}
+
+@media (max-width: 1199px) {
+  .button-up {
+    margin: 0;
+  }
+  .button-up-big {
+    margin: 0;
+  }
+}
+/* media for photos */
+
+@media (max-width: 670px) {
+  .search-btn-photo {
+    width: 10rem;
+  }
+}
+
+@media (max-width: 600px)  {
+  #photos a {
+  position: relative;
+  bottom: 2rem;
+  right: 0;
+  }
+  #imgs img {
+    width: 90%;
+  }
+}
+
+@media (max-width: 700px) {
+  #photos h1 {
+    font-size: 2rem;
+    position: relative;
+    left: -20px;
+    bottom: 10px;
+  }
+  .width-form {
+    width: 7.3rem;
+  }
+  .sign-form {
+    width: 18rem;
+  }
+  .gender-form {
+    width: 8.5rem;
+  }
+  .user-form {
+    width: 8.5rem;
+  }
+  .check-form {
+    width: 10rem;
+  }
+}
+
+@media (max-width: 490px) {
+  #photos h1 {
+    visibility: hidden;
+  }
+}
+
+/* media for sign-in log-in section */
+
+@media (max-width: 1200px) {
+  #sign-in img {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 800px) {
+  .support-title {
+    font-size: 5rem;
+  }
+  .support-title-1 {
+    font-size: 5rem;
+  }
+}
